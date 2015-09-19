@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/text_color_toolbar"
+            style="@style/TextOptionsListStyle"
+            android:layout_alignBaseline="@+id/check_color_toolbar"
+            android:layout_toLeftOf="@+id/check_color_toolbar"
+            android:text="@string/text_toolbar_colored" />
+
+        <CheckBox
+            android:id="@+id/check_color_toolbar"
+            style="@style/CheckBoxStyle" />
+
+        <TextView
+            android:id="@+id/text_show_title"
+            style="@style/TextOptionsListStyle"
+            android:layout_alignBaseline="@+id/check_show_title"
+            android:layout_below="@id/text_color_toolbar"
+            android:layout_toLeftOf="@+id/check_show_title"
+            android:text="@string/text_title_displayed" />
+
+        <CheckBox
+            android:id="@+id/check_show_title"
+            style="@style/CheckBoxStyle"
+            android:layout_below="@id/check_color_toolbar" />
+
+        <TextView
+            android:id="@+id/text_close_icon"
+            style="@style/TextOptionsListStyle"
+            android:layout_alignBaseline="@+id/check_close_icon"
+            android:layout_below="@id/text_color_toolbar"
+            android:layout_toLeftOf="@+id/check_show_title"
+            android:text="@string/text_back_arrow_displayed" />
+
+        <CheckBox
+            android:id="@+id/check_close_icon"
+            style="@style/CheckBoxStyle"
+            android:layout_below="@id/check_show_title" />
+
+        <TextView
+            android:id="@+id/text_action_bar_icon"
+            style="@style/TextOptionsListStyle"
+            android:layout_alignBaseline="@+id/check_action_bar_icon"
+            android:layout_below="@id/text_close_icon"
+            android:layout_toLeftOf="@+id/check_close_icon"
+            android:text="@string/text_actionbar_icon_displayed" />
+
+        <CheckBox
+            android:id="@+id/check_action_bar_icon"
+            style="@style/CheckBoxStyle"
+            android:layout_below="@id/check_close_icon" />
+
+        <TextView
+            android:id="@+id/text_menu_items"
+            style="@style/TextOptionsListStyle"
+            android:layout_alignBaseline="@+id/check_menu_items"
+            android:layout_below="@id/text_action_bar_icon"
+            android:layout_toLeftOf="@+id/check_menu_items"
+            android:text="@string/text_menu_items_displayed" />
+
+        <CheckBox
+            android:id="@+id/check_menu_items"
+            style="@style/CheckBoxStyle"
+            android:layout_below="@id/check_action_bar_icon" />
+
+        <TextView
+            android:id="@+id/text_custom_animations"
+            style="@style/TextOptionsListStyle"
+            android:layout_alignBaseline="@+id/check_custom_animations"
+            android:layout_below="@id/text_menu_items"
+            android:layout_toLeftOf="@+id/check_custom_animations"
+            android:text="@string/text_custom_animations" />
+
+        <CheckBox
+            android:id="@+id/check_custom_animations"
+            style="@style/CheckBoxStyle"
+            android:layout_below="@id/check_menu_items"
+            android:checked="true" />
+
+        <Button
+            android:id="@+id/button_launchSite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check_custom_animations"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:padding="16dp"
+            android:text="@string/text_launch_custom_tab" />
+
+    </RelativeLayout>
+
+</LinearLayout>

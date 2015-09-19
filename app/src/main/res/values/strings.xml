@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChromeCustomTag</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_title_share">Share</string>
+    <string name="menu_title_email">Email us</string>
+
+    <string name="text_launch_custom_tab">Launch WebSite</string>
+
+    <string name="text_toolbar_colored">Toolbar colored</string>
+    <string name="text_title_displayed">Title displayed</string>
+    <string name="text_back_arrow_displayed">Back Arrow displayed</string>
+    <string name="text_actionbar_icon_displayed">Actionbar icon</string>
+    <string name="text_menu_items_displayed">Menu items</string>
+    <string name="text_custom_animations">Custom animations</string>
+
+</resources>
+
+
